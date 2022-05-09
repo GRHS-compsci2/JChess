@@ -1,4 +1,4 @@
-package io.github.daflamingfox;
+package com.github.grhscompsci2.JChess;
 
 import java.awt.BorderLayout;
 import javax.swing.JFrame;
@@ -18,7 +18,7 @@ public class App extends JFrame {
     add(gameBoard, BorderLayout.CENTER);
     add(debug, BorderLayout.NORTH);
 
-    //pack();
+    // pack();
     setVisible(true);
   }
 }

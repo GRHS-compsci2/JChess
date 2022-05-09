@@ -1,7 +1,7 @@
 /**
  * @(#)StretchIcon.java	1.0 03/27/12
  */
-package io.github.daflamingfox.util;
+package com.github.grhscompsci2.JChess.util;
 
 import java.awt.Component;
 import java.awt.Container;

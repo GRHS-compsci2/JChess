@@ -1,4 +1,4 @@
-package io.github.daflamingfox.util.listeners;
+package com.github.grhscompsci2.JChess.util.listeners;
 
 import javax.swing.event.DocumentEvent;
 import javax.swing.event.DocumentListener;

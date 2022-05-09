@@ -1,4 +1,8 @@
-package io.github.daflamingfox.util;
+package com.github.grhscompsci2.JChess.util;
+
+import java.io.IOException;
+
+import javax.imageio.ImageIO;
 
 public class ChessUtil {
 
@@ -20,7 +24,7 @@ public class ChessUtil {
     public StretchIcon icon;
 
     private Piece(String name) {
-      icon = new StretchIcon("src/main/resources/" + name + ".png");
+      icon = new StretchIcon("src/com/github/grhscompsci2/JChess/images/"+name+".png");
     }
   }
 }

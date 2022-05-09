@@ -1,9 +1,10 @@
-package io.github.daflamingfox.util.listeners;
+package com.github.grhscompsci2.JChess.util.listeners;
 
-import io.github.daflamingfox.GameBoard;
 import java.awt.Color;
 import javax.swing.JTextField;
 import javax.swing.event.DocumentEvent;
+
+import com.github.grhscompsci2.JChess.GameBoard;
 
 public class PrimaryColorListener implements SimpleDocumentListener {
 

@@ -1,12 +1,13 @@
-package io.github.daflamingfox;
+package com.github.grhscompsci2.JChess;
 
-import io.github.daflamingfox.util.ChessUtil.Piece;
-import io.github.daflamingfox.util.listeners.ButtonPressListener;
 import java.awt.Color;
 import java.awt.GridLayout;
 import java.util.ArrayList;
 import javax.swing.JButton;
 import javax.swing.JPanel;
+
+import com.github.grhscompsci2.JChess.util.ChessUtil.Piece;
+import com.github.grhscompsci2.JChess.util.listeners.ButtonPressListener;
 
 public class GameBoard extends JPanel {
 
@@ -224,70 +225,57 @@ public class GameBoard extends JPanel {
         // get next piece
         char c = pieces.remove(0);
         switch (c) {
-          case 'p':
-            {
-              board[i][j].setIcon(Piece.BLACK_PAWN.icon);
-              break;
-            }
-          case 'r':
-            {
-              board[i][j].setIcon(Piece.BLACK_ROOK.icon);
-              break;
-            }
-          case 'n':
-            {
-              board[i][j].setIcon(Piece.BLACK_KNIGHT.icon);
-              break;
-            }
-          case 'b':
-            {
-              board[i][j].setIcon(Piece.BLACK_BISHOP.icon);
-              break;
-            }
-          case 'q':
-            {
-              board[i][j].setIcon(Piece.BLACK_QUEEN.icon);
-              break;
-            }
-          case 'k':
-            {
-              board[i][j].setIcon(Piece.BLACK_KING.icon);
-              break;
-            }
-          case 'P':
-            {
-              board[i][j].setIcon(Piece.WHITE_PAWN.icon);
-              break;
-            }
-          case 'R':
-            {
-              board[i][j].setIcon(Piece.WHITE_ROOK.icon);
-              break;
-            }
-          case 'N':
-            {
-              board[i][j].setIcon(Piece.WHITE_KNIGHT.icon);
-              break;
-            }
-          case 'B':
-            {
-              board[i][j].setIcon(Piece.WHITE_BISHOP.icon);
-              break;
-            }
-          case 'Q':
-            {
-              board[i][j].setIcon(Piece.WHITE_QUEEN.icon);
-              break;
-            }
-          case 'K':
-            {
-              board[i][j].setIcon(Piece.WHITE_KING.icon);
-              break;
-            }
-          default:
-            {
-              j += Integer.valueOf(String.valueOf(c));
-            }
+          case 'p': {
+            board[i][j].setIcon(Piece.BLACK_PAWN.icon);
+            break;
+          }
+          case 'r': {
+            board[i][j].setIcon(Piece.BLACK_ROOK.icon);
+            break;
+          }
+          case 'n': {
+            board[i][j].setIcon(Piece.BLACK_KNIGHT.icon);
+            break;
+          }
+          case 'b': {
+            board[i][j].setIcon(Piece.BLACK_BISHOP.icon);
+            break;
+          }
+          case 'q': {
+            board[i][j].setIcon(Piece.BLACK_QUEEN.icon);
+            break;
+          }
+          case 'k': {
+            board[i][j].setIcon(Piece.BLACK_KING.icon);
+            break;
+          }
+          case 'P': {
+            board[i][j].setIcon(Piece.WHITE_PAWN.icon);
+            break;
+          }
+          case 'R': {
+            board[i][j].setIcon(Piece.WHITE_ROOK.icon);
+            break;
+          }
+          case 'N': {
+            board[i][j].setIcon(Piece.WHITE_KNIGHT.icon);
+            break;
+          }
+          case 'B': {
+            board[i][j].setIcon(Piece.WHITE_BISHOP.icon);
+            break;
+          }
+          case 'Q': {
+            board[i][j].setIcon(Piece.WHITE_QUEEN.icon);
+            break;
+          }
+          case 'K': {
+            board[i][j].setIcon(Piece.WHITE_KING.icon);
+            break;
+          }
+          default: {
+            j += Integer.valueOf(String.valueOf(c));
+          }
         }
       }
     }

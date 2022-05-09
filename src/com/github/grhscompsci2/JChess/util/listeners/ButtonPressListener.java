@@ -1,9 +1,10 @@
-package io.github.daflamingfox.util.listeners;
+package com.github.grhscompsci2.JChess.util.listeners;
 
-import io.github.daflamingfox.GameBoard;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.JButton;
+
+import com.github.grhscompsci2.JChess.GameBoard;
 
 public class ButtonPressListener implements ActionListener {
 
@@ -14,7 +15,8 @@ public class ButtonPressListener implements ActionListener {
   }
 
   /**
-   * logic to figure out what pieces need to be compared, but not what to do with them.
+   * logic to figure out what pieces need to be compared, but not what to do with
+   * them.
    */
   @Override
   public void actionPerformed(ActionEvent e) {

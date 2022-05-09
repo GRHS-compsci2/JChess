@@ -1,4 +1,4 @@
-package io.github.daflamingfox;
+package com.github.grhscompsci2.JChess;
 
 import javax.swing.SwingUtilities;
 
